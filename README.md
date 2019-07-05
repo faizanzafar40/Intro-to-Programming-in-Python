@@ -1,8 +1,16 @@
 # Intro-to-Programming-in-Python
 
-The course outline is as follows:
+To make the learn and writing code easy
 
-## Introductory Presentation
+## Tutorial Outline
+
+I have drafted this beginner's tutorial for introduction to Python. I believe in learning with practice and thus have included scripts and programs to individually explain basic and Intermediate concepts.
+
+## Tutorial Outline
+
+The tutorial outline is as follows:
+
+### Introductory Presentation
   - Introduction to programming
   - Introduction to Python
   - Applications and Syntax
@@ -11,7 +19,7 @@ The course outline is as follows:
   - Setup environment
 
 
-## Basics of Programming
+### Basics of Programming
   - How a syntax of a computer program looks like?
   - Constants & variables
   - Data types
@@ -26,7 +34,7 @@ The course outline is as follows:
   - Break and continue statements
 
 
-## Intermediates of Programming
+### Intermediates of Programming
   - File manipulations
     - Input from basic text file
     - Using loops to read file content
@@ -41,9 +49,12 @@ The course outline is as follows:
   - Basics of classes
 
 
-## Python for Scientific Computing
+### Python for Scientific Computing
   - Numpy
   - Pandas
   - Matplotlib
+
+
+This repository is open to all members of the GitHub community. Feel free to submit a pull request or provide feedback on this tutorial.  
 
 Star this repository if you had fun with python!
