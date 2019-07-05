@@ -1,7 +1,8 @@
 # Intro-to-Programming-in-Python
 
+The course outline is as follows:
 
-- Introductory Presentation
+## Introductory Presentation
   - Introduction to programming
   - Introduction to Python
   - Applications and Syntax
@@ -10,7 +11,7 @@
   - Setup environment
 
 
-- Basics of Programming
+## Basics of Programming
   - How a syntax of a computer program looks like?
   - Constants & variables
   - Data types
@@ -25,7 +26,7 @@
   - Break and continue statements
 
 
-- Intermediates of Programming
+## Intermediates of Programming
   - File manipulations
     - Input from basic text file
     - Using loops to read file content
@@ -40,7 +41,9 @@
   - Basics of classes
 
 
-- Python for Scientific Computing
+## Python for Scientific Computing
   - Numpy
   - Pandas
   - Matplotlib
+
+Star this repository if you had fun with python!
