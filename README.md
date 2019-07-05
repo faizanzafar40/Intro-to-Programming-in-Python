@@ -55,6 +55,7 @@ The tutorial outline is as follows:
   - Matplotlib
 
 
+
 This repository is open to all members of the GitHub community. Feel free to submit a pull request or provide feedback on this tutorial.  
 
 Star this repository if you had fun with python!
