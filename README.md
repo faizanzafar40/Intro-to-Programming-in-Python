@@ -49,7 +49,7 @@ The tutorial outline is as follows:
   - Basics of classes
 
 
-### Python for Scientific Computing
+### Python for Data Analysis
   - Numpy
   - Pandas
   - Matplotlib
