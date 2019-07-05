@@ -1,4 +1,4 @@
-# Intro-to-Programming-in-Python
+# Intro to Programming in Python
 
 Learning to write code was never this easy!
 
