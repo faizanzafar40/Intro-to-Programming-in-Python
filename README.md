@@ -4,14 +4,14 @@ Learning to write code was never this easy!
 
 ## Tutorial Description
 
-This is a beginner's tutorial for introduction to programming in python, targeted for anyone looking to learn programming and python from scratch. I believe in learning with practice and thus have included several scripts and programs to individually explain basic and intermediate concepts. Moreover, a total of 8 PowerPoint Presentations are included which cover all basic programming concepts, so do refer to them when starting out.
+This is a beginner's tutorial for programming in python, targeted towards anyone looking to learn programming and python from scratch. I believe in learning with practice and thus have included several scripts and programs to individually explain basic and intermediate concepts. Moreover, a total of 8 PowerPoint Presentations are included which cover all basic programming concepts, so do refer to them when starting out.
 
 ## Tutorial Outline
 
 The tutorial outline is as follows:
 
-### Introductory Presentation
-  - Introduction to programming
+### Introduction
+  - Introduction to Programming
   - Introduction to Python
   - Applications and Syntax
   - Learning Outcomes
@@ -20,7 +20,7 @@ The tutorial outline is as follows:
 
 
 ### Basics of Programming
-  - How a syntax of a computer program looks like?
+  - Syntax of a computer program
   - Constants & variables
   - Data types
   - input()/print() statement
@@ -36,17 +36,17 @@ The tutorial outline is as follows:
 
 ### Intermediates of Programming
   - File manipulations
-    - Input from basic text file
-    - Using loops to read file content
-    - Writing to file
+    - Input from text file
+    - Using loops to read text file content
+    - Writing to text file
   - Using with statement - context management (to destroy file handles and call garbage collector)
-  - What are modules and how to install other modules?
+  - Modules - Installation & Use
   - Import statement
-  - Math module (basic functions of math module)
-  - What are exceptions and how to deal with them?
+  - Math module (with basic functions)
+  - Dealing with Exceptions
   - Try … except
   - Object oriented Programming
-  - Basics of classes
+  - Basics of classes and objects
 
 
 ### Python for Data Analysis
