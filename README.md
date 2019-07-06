@@ -4,7 +4,7 @@ Learning to write code was never this easy!
 
 ## Tutorial Description
 
-I have drafted this beginner's tutorial for introduction to programming in python, targeted for anyone looking to learn programming and python from scratch. I believe in learning with practice and thus have included several scripts and programs to individually explain basic and intermediate concepts. Moreover, a total of 8 presentations are included which cover all basic programming concepts, so do refer to them when starting out.
+This is a beginner's tutorial for introduction to programming in python, targeted for anyone looking to learn programming and python from scratch. I believe in learning with practice and thus have included several scripts and programs to individually explain basic and intermediate concepts. Moreover, a total of 8 PowerPoint Presentations are included which cover all basic programming concepts, so do refer to them when starting out.
 
 ## Tutorial Outline
 
