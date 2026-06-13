@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller build output
+build/
+dist/
+*.spec
+
+# Files written by the file-handling practice scripts at runtime
+practice_programs/data.txt
+practice_programs/colors.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging / tooling caches
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
