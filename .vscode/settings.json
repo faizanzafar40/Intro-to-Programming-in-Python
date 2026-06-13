@@ -1,5 +1,8 @@
 {
-    "python.pythonPath": "C:\\Program Files (x86)\\Python37-32\\python.exe",
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.languageServer": "Default",
+    "python.analysis.typeCheckingMode": "basic",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
 }
