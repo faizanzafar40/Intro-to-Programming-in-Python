@@ -9,7 +9,7 @@ Therefore, if we multiply all the elements of the result list, we should get bac
 If this seems a bit hard, at first return a list of numbers that divide the input
 and then try to get to the final answer.
 
-Hint: 
+Hint:
 1. You can call the function "get_factors" from inside itself.
 2. The input function returns string, not a number. You need to convert it to a proper type.
 3. You can join two lists simply with the "+" sign.
@@ -18,12 +18,13 @@ Hint:
 
 
 def get_factors(number):
-    factors=[]
-    for i in range(2,number+1):
-        while(number%i==0):
-            number=number//i
-            factors.append(i)            
+    factors = []
+    for i in range(2, number + 1):
+        while number % i == 0:
+            number = number // i
+            factors.append(i)
     return factors
+
 
 input_number = int(input("Enter a number: "))
 all_factors = get_factors(input_number)

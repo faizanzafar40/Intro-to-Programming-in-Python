@@ -20,22 +20,23 @@ cracked:  1025
 
 
 """
+
 import random
 
+
 def check_pincode(pin):
-    l=list(pin)
+    l = list(pin)
     """l=[]
     for i in a:
         x=int(i)
         l.append(x)"""
-    pin_length=len(l)
-    cracked_code="Random"
-    while(pin!=cracked_code):
-        cracked_code="".join(random.sample(l,pin_length))
-        print("checking combination: ",cracked_code)
-    print("cracked: ",cracked_code)
+    pin_length = len(l)
+    cracked_code = "Random"
+    while pin != cracked_code:
+        cracked_code = "".join(random.sample(l, pin_length))
+        print("checking combination: ", cracked_code)
+    print("cracked: ", cracked_code)
 
-pin=input("Enter the pin: ")
+
+pin = input("Enter the pin: ")
 check_pincode(pin)
-
-

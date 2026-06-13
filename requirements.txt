@@ -1,0 +1,5 @@
+# Only the scripts under data_analysis/ need third-party packages.
+# Everything else in this tutorial runs on the Python standard library.
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8

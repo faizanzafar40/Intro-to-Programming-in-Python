@@ -25,13 +25,16 @@ For example: given the input abcd, the function prints different shuffles like:
 """
 
 import random
+
+
 def shuffle_game(text):
-    l=list(text)
-    m=None
-    while(text!=m):
-        a=random.sample(l,4)
-        m="".join(a)
+    l = list(text)
+    m = None
+    while text != m:
+        a = random.sample(l, 4)
+        m = "".join(a)
         print(m)
+
 
 input_text = input("Enter a text (4-8 characters long): ")
 shuffle_game(input_text)

@@ -25,30 +25,33 @@ Hints:
 
 """
 
+
 def isPrime(number):
-    for i in range(2,number):
-        if number%i==0:
+    for i in range(2, number):
+        if number % i == 0:
             return False
             break
     else:
         return True
 
+
 def get_factors(number):
-    factors=[]
-    for i in range(2,number+1):
-        while(number%i==0):
-            number=number//i
-            factors.append(i)            
+    factors = []
+    for i in range(2, number + 1):
+        while number % i == 0:
+            number = number // i
+            factors.append(i)
     return factors
 
+
 def get_non_prime_factors(number):
-    a={}
-    for i in range(2,number+1):
+    a = {}
+    for i in range(2, number + 1):
         if not isPrime(i):
-            a.update({i:get_factors(i)})
+            a.update({i: get_factors(i)})
     return a
 
 
-limitRange=int(input("Enter the range: "))
-res=get_non_prime_factors(limitRange)
+limitRange = int(input("Enter the range: "))
+res = get_non_prime_factors(limitRange)
 print(res)

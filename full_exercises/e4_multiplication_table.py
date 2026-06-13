@@ -18,9 +18,8 @@ For example, if the input is 8, the function should print:
 
 
 def print_multiplication_table(number):
-    for i in range(1,9):
-        print(number,"X",i,"=",number*i)
-
+    for i in range(1, 9):
+        print(number, "X", i, "=", number * i)
 
 
 print_multiplication_table(20)

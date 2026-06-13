@@ -11,16 +11,16 @@ For example, if the input is "hannah" it should return True, but if the input is
 
 
 def check_palindrome(text):
-    a=list(text)
-    b=list(text)
+    a = list(text)
+    b = list(text)
     b.reverse()
-    l=int(len(a)/2)
-    count=0
+    l = int(len(a) / 2)
+    count = 0
     for i in range(l):
-        if a[i]!=b[i]:
-            count=1
+        if a[i] != b[i]:
+            count = 1
             break
-    if count==0:
+    if count == 0:
         return True
     else:
         return False

@@ -12,7 +12,7 @@ for i in range(begin_with):
 
 # Loop infinitely
 while True:
-    failed = False      # variable indicating failure
+    failed = False  # variable indicating failure
     clear_screen()
     banner_message("Game begins now!")
     total_word_count = len(words)
@@ -26,9 +26,8 @@ while True:
         if word != words[i]:
             # If wrong, add a new word and make the game even harder
             print("Wrong word! the game just got harder...")
-            failed = True       # set the value to true to indicate failure
-            new_word = input(
-                "Enter a new word (#" + str(total_word_count + 1) + "): ")
+            failed = True  # set the value to true to indicate failure
+            new_word = input("Enter a new word (#" + str(total_word_count + 1) + "): ")
             words.append(new_word)
             break
     # if the user didn't fail, remove the last word

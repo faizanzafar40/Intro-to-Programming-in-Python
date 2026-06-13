@@ -16,8 +16,8 @@ Hint:
 def get_maximum(numbers):
     result = numbers[0]
     for i in range(len(numbers)):
-        if numbers[i]>result:
-            result=numbers[i]
+        if numbers[i] > result:
+            result = numbers[i]
 
     return result
 

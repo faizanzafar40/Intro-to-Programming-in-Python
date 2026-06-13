@@ -1,0 +1,19 @@
+# This repository is a tutorial, not an installable package, so there is no
+# [project] table here — just the shared formatter/linter configuration that
+# keeps every script in the course styled the same way.
+
+[tool.black]
+line-length = 88
+target-version = ["py38"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
+
+[tool.ruff.lint]
+# Keep the lint set beginner-friendly: pyflakes (F) for real mistakes such as
+# unused imports, and a subset of pycodestyle (E) for obvious style slips.
+select = ["E", "F"]
+# The practice scripts intentionally run top-to-bottom at module level, so a
+# handful of teaching idioms (bare except, module-level code) are expected.
+ignore = ["E722"]
