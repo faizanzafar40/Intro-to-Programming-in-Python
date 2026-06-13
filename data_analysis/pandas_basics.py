@@ -3,7 +3,7 @@ import pandas as pd
 
 
 def separator_line():
-    print(20*"-")
+    print(20 * "-")
 
 
 print("######## Creation of Pandas objects (Series, DataFrame) #########")
@@ -14,19 +14,23 @@ print("######## Creation of Pandas objects (Series, DataFrame) #########")
 
 # TODO: Define a pandas series 's' with the elements 1, 3, 5, np.nan, 6 and 8
 
-pandas_series = pd.Series([1, 3, 5, np.nan, 6, 8]) # series only has one data type
-print(pandas_series) # indices are also printed
+pandas_series = pd.Series([1, 3, 5, np.nan, 6, 8])  # series only has one data type
+print(pandas_series)  # indices are also printed
 
 separator_line()
 
 # TODO: Create a pandas dataframe 'df' from a dictionary
 
-df = pd.DataFrame({'A': [-1, -0.5, 0, 3],
-                   'B': pd.Timestamp('20130102'),
-                   'C': pd.Series(1, index=list(range(4)), dtype='float32'),
-                   'D': np.array([1, 2, 3, 4], dtype='int32'),
-                   'E': pd.Categorical(["test", "train", "test", "train"]),
-                   'F': 'foo'})
+df = pd.DataFrame(
+    {
+        "A": [-1, -0.5, 0, 3],
+        "B": pd.Timestamp("20130102"),
+        "C": pd.Series(1, index=list(range(4)), dtype="float32"),
+        "D": np.array([1, 2, 3, 4], dtype="int32"),
+        "E": pd.Categorical(["test", "train", "test", "train"]),
+        "F": "foo",
+    }
+)
 
 # TODO: Print out the data types of 'df''s columns
 
@@ -80,7 +84,7 @@ separator_line()
 
 # TODO: Sort in ascending order the rows of 'df' by column 'D'
 
-df1 = df.sort_values(by=['D'])
+df1 = df.sort_values(by=["D"])
 print(df1)
 
 separator_line()
@@ -89,7 +93,7 @@ print("######## Selection #########")
 
 # TODO: Select column 'D' of 'df' by column label
 
-df2 = df[['D']]
+df2 = df[["D"]]
 print(df2)
 
 separator_line()
@@ -102,7 +106,7 @@ separator_line()
 
 # TODO: Select columns 'A' and 'B' from 'df' by column label
 
-df3 = df[['A', 'B']]
+df3 = df[["A", "B"]]
 print(df3)
 
 separator_line()
@@ -116,23 +120,23 @@ separator_line()
 
 # TODO: Select row at index 3 from 'df' by position
 
-print(df.iloc[3,:])
+print(df.iloc[3, :])
 
 separator_line()
 
 # TODO: Select rows with indices 2 and 3 and columns with indices 0 and 1 from 'df'
 
-print(df.iloc[2,:])
-print(df.iloc[3,:])
+print(df.iloc[2, :])
+print(df.iloc[3, :])
 
-print(df.iloc[:,0])
-print(df.iloc[:,1])
+print(df.iloc[:, 0])
+print(df.iloc[:, 1])
 
 separator_line()
 
 # TODO: Get the rows of 'df' whose value in column 'A' not equal to zero
 
-print(df.loc[df['A'] != 0])
+print(df.loc[df["A"] != 0])
 
 separator_line()
 
